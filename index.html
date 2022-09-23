@@ -9,6 +9,27 @@
 </head>
 <body>
     <div class="clock"></div>
+    <section id="Sec1">
+        <div class="session">
+            <button class="btn" id="btnS" onclick="Sess()">Session</button>
+       <div class="inerr">
+        
+       </div>
+        </div>
+        <div class="reminder">
+           <div class="inputTxt"> 
+            <input type="number"  class="txt" name="hh" id="hh" min="0" max="24"oninput="rengrTime()">
+            <input type="number" class="txt" name="mm" id="mm" min="0" max="60"oninput="rengrTime()">
+            <input type="number" class="txt" name="ss" id="ss" min="0" max="60"oninput="rengrTime()">
+        </div>
+            <div class="timeRem">
+                <button class="btn"id="reminder" onclick="timeRemh()">Reminder</button>
+           <div class="timeRemh2">
+
+           </div>
+            </div>
+        </div>
+    </section>
 
     <script src="./JS/script.js"></script>
 </body>
